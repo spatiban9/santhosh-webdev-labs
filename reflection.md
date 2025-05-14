@@ -38,4 +38,18 @@ In this week we had only one exercise, a few more exercises on accessibility wou
 
 ### CSS
 
-Enter your reflections on this section here.
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I was able complete them on my own, but I had few doubts about layout alignment so I referred the modules.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+All the exercises where pretty helpful, exercise 6 on media queries was very useful as it showed how CSS can respond to different screen sizes.
+
+#### 3.Was there something that you wish had been explained better?
+
+Everything was good, only thing is if ther was a bit more explanation on how the default browser styles affect layout could have been more clear.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+Exercise 4 was too simple. If there had been another task to explore the effects of box sizing, it would have made the exercise more helpful to understand the concept better.

@@ -14,8 +14,55 @@ li[class] {
   color: var(--red);
 }
 
+li[id] {
+  color: var(--blue);
+}
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
+  color: var(--green);
+}
+
+li.dog {
+  color: var(--magenta);
+}
+
+li#cat {
+  color: var(--teal);
+}
+
+li.parrot {
+  color: var(--green);
+}
+
+li.donkey {
+  color: var(--blue);
+}
+
+li.hedgehog {
+  color: var(--violet);
+}
+
+li.cat.dog.parrot {
+  color: var(--blue);
+}
+
+.list-food ol li.first {
+  color: var(--green);
+}
+
+.list-food ol li.first + li {
+  color: var(--magenta);
+}
+
+.list-food ol li:nth-child(3) {
+  color: var(--blue);
+}
+
+.list-food ol li:nth-child(4) {
+  color: var(--darkmagenta);
+}
+
+.list-cleaning ol li {
   color: var(--green);
 }
