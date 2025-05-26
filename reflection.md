@@ -53,3 +53,21 @@ Everything was good, only thing is if ther was a bit more explanation on how the
 #### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
 
 Exercise 4 was too simple. If there had been another task to explore the effects of box sizing, it would have made the exercise more helpful to understand the concept better.
+
+### Flexbox
+
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I completed most of the exercises on my own, but for the complex layouts like wrap reverse and column, I had to check the slides to understand them.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+The exersices where really helpful, the one with column wrap was a very useful as it was unique compared to other felxboxs.
+
+#### 3.Was there something that you wish had been explained better?
+
+Everything was good, apert from the column wrap was a bit tricky to understand.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+If we had few more exercises like flexbox container 6, that would have helped a lot. Since it was more complex, working on it for few more exercises would have helped me a bit.
