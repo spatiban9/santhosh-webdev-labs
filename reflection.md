@@ -71,3 +71,21 @@ Everything was good, apert from the column wrap was a bit tricky to understand.
 #### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
 
 If we had few more exercises like flexbox container 6, that would have helped a lot. Since it was more complex, working on it for few more exercises would have helped me a bit.
+
+### Grid
+
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I was able to complete them on my own, for few doubts I refered to class notes.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+They where very helpful, in second exercise the grid template areas was helpful to understand the different screen sizes.
+
+#### 3.Was there something that you wish had been explained better?
+
+If we had a bit more explaintion on how row sizes like 1fr, 2fr, etc. Will affect the layout across different screen sizes, As it took me a while to figure it out.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+If we had one short exercise, that is focused on row sizing and height control would have helped a little more.
