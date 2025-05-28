@@ -89,3 +89,21 @@ If we had a bit more explaintion on how row sizes like 1fr, 2fr, etc. Will affec
 #### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
 
 If we had one short exercise, that is focused on row sizing and height control would have helped a little more.
+
+### Bootstrap
+
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I have completed the exercises on my own, but I looked at the Bootstrap class notes to confirm my breakpoint class choices.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+The exercises where helpful, particularly exercise 3 was very helpful as we can learn how the grid works differently with 3 different sizes of screen.
+
+#### 3.Was there something that you wish had been explained better?
+
+I found the spacing utilities a bit confusing at first, if we had a better explaination would have made it easier to understand.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+If we had another exercise on nested grids, it would have made the practice more challenging and helped me understand complex layouts better.
