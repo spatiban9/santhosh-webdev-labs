@@ -107,3 +107,21 @@ I found the spacing utilities a bit confusing at first, if we had a better expla
 #### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
 
 If we had another exercise on nested grids, it would have made the practice more challenging and helped me understand complex layouts better.
+
+### Javascript
+
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I was able to complete the exercises mostly on my own. For some tasks like using reduce() or working with DOM events, I referred to the class notes.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+The exercises were helpful, exercise 6 was useful as it helped me understand how to get data from an API and display it on the webpage.
+
+#### 3.Was there something that you wish had been explained better?
+
+I wish there was a bit more explanation about event listeners and the difference between click and input events in DOM manipulation would have been better.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+A few more exercises on array methods like map(), filter(), and reduce() would have helped me understand them better.
