@@ -1,11 +1,14 @@
 /* CSS custom properties / CSS variables */
 
 :root {
-  --darkmagenta: #8b008b;
-  --magenta: #ff00ff;
-  --royalblue: #4169e1;
-  --teal: #008080;
-  --violet: #9400d3;
+  --darkmagenta: #6a006a;
+  --magenta: #cc00cc;
+  --royalblue: #2f4cd1;
+  --teal: #006666;
+  --violet: #6b00a8;
+  --red: #b00000;
+  --blue: #004080;
+  --green: #007a00;
 }
 
 /* Use attribute selectors for the first part of the exercise */
@@ -27,7 +30,7 @@ li.dog {
   color: var(--magenta);
 }
 
-li#cat {
+li.cat {
   color: var(--teal);
 }
 
