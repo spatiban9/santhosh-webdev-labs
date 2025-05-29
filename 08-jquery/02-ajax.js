@@ -1,52 +1,49 @@
-const url = 'https://anapioficeandfire.com/api/books/';
+const url = "https://anapioficeandfire.com/api/books/";
 
-const app = document.querySelector('#books');
-app.style.paddingLeft = 0;
-const loading = document.querySelector('#loading');
+const $app = $("#books");
+const $loading = $("#loading");
+$app.css("padding-left", 0);
 
 const addBookToDOM = (item) => {
   console.log(item);
-  let element = document.createElement('div');
-  let title = document.createElement('h4');
-  let author = document.createElement('p');
-  let published = document.createElement('p');
-  let pages = document.createElement('p');
 
-  element.style.display = 'flex';
-  element.style.flexDirection = 'column';
-  element.style.alignItems = 'center';
-  element.style.marginTop = '20px';
+  let $element = $("<div></div>");
+  let $title = $("<h2></h2>");
+  let $author = $("<p></p>");
+  let $published = $("<p></p>");
+  let $pages = $("<p></p>");
 
-  title.textContent = item.name;
-  author.textContent = `by ${item.authors[0]}`;
-  published.textContent = item.released.substr(0, 4);
-  pages.textContent = `${item.numberOfPages} pages`;
+  $title.text(item.name);
+  $author.text(`by ${item.authors[0]}`);
+  $published.text(item.released.substr(0, 4));
+  $pages.text(`${item.numberOfPages} pages`);
 
-  element.append(title);
-  element.append(author);
-  element.append(published);
-  element.append(pages);
+  $element.css({
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: "20px",
+  });
 
-  app.append(element);
+  $element.append($title, $author, $published, $pages);
+  $app.append($element);
 };
 
 const fetchData = (url) => {
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => {
-      data.forEach((item) => {
-        addBookToDOM(item);
-      });
-    })
-    .catch((error) => {
-      console.log(error);
-      let li = document.createElement('li');
-      li.textContent = `An error occured. Please try again.`;
-      app.append(li);
-    })
-    .finally(() => {
-      app.removeChild(loading);
-    });
+  $.ajax({
+    url: url,
+    method: "GET",
+    success: (data) => {
+      data.forEach(addBookToDOM);
+    },
+    error: () => {
+      let $error = $("<p></p>").text("An error occurred. Please try again.");
+      $app.append($error);
+    },
+    complete: () => {
+      $loading.remove();
+    },
+  });
 };
 
 fetchData(url);

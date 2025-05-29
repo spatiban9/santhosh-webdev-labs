@@ -125,3 +125,21 @@ I wish there was a bit more explanation about event listeners and the difference
 #### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
 
 A few more exercises on array methods like map(), filter(), and reduce() would have helped me understand them better.
+
+### Jquery
+
+#### 1.Were you able to complete the exercises on your own or did you use the videos or the solutions for help?
+
+I was able to complete the exercises on my own, but I checked the class notes to understand how jQuery selectors and events work.
+
+#### 2.How helpful did you find the exercises in this section? Was there one exercise that was particularly helpful?
+
+The exercises were helpful. The exercise 2 was useful as we worked on, how to fetch data using jQuery and update the DOM.
+
+#### 3.Was there something that you wish had been explained better?
+
+It would have helped, if we had bit more explanation on the differences between vanilla JavaScript and jQuery syntax for DOM manipulation.
+
+#### 4.Were there other exercises that might have helped you learn this week’s topic a little better?
+
+Few more practice exercises on using jQuery would been helped for more practice.
